@@ -11,7 +11,7 @@ const ToDoList = (event) => {
 
   return (
     <>
-      <h2>This is the to-do list</h2>
+      <h2>List 1:</h2>
       <ul>
         {tasks.map((task) => {
           return <li key={task.id}>{<ToDoCard task={task} />}</li>

@@ -1,4 +1,4 @@
 const Header = () => {
-  return <h1>Dan and James list</h1>
+  return <h1>To-Do List!</h1>
 }
 export default Header
